@@ -49,3 +49,9 @@
 
 ### 2.2. Conceito de Loops
 - Revisando a estrutura `while` dentro do Python no Google Colab, conhecimento básico.
+
+### 2.3. Integração Dinâmica com Chatbots
+- Conseguimos criar um chat com a Inteligência Artificial e armazenar dentro de uma variável.
+- A partir desta variável, podemos chamar uma função de enviar mensagem com um prompt.
+- A partir da propriedade `text`, conseguimos imprimir a resposta dada pela Inteligência.
+- Conseguimos também obter o histórico de mensagens chamando a função `get_history()`.
