@@ -38,3 +38,14 @@
 - As condicionais dentro do Python utilizam identação em vez de blocos delimitados por chaves.
 - Na estrutura If-Else, há a palavra-chave `elif` que é uma simples abreviação de `else if`.
 - O operador lógico `and` nos permite inserir mais premissas dentro de uma única condição. 
+
+## 2. Manipulação de Strings
+
+### 2.1. Conexão com Gemini
+- A API Key deve ser gerado no Google AI Studio, logando na conta google e indo na tela adequada.
+- Após obter a API Key que foi gerada, ela deve ser armazenada na Secrets do Google Colab.
+- Em seguida, a API Key deve carregada via importação nas variáveis de ambiente do Python.
+- Através da importação da biblioteca `genai`, conseguimos instanciar um cliente de IA.
+
+### 2.2. Conceito de Loops
+- Revisando a estrutura `while` dentro do Python no Google Colab, conhecimento básico.
