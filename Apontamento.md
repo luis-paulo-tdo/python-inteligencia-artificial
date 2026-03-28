@@ -59,3 +59,6 @@
 ### 2.4. Criando um Chatbot
 - Através de um loop while, podemos fazer a captura de prompts, enviá-los ao chat e obter respostas.
 - Enquanto a condição do loop não for atendida, novas perguntas podem ser feitas e respondidas.
+
+### 2.5. Explorando Estrutura de Dados
+- As listas armazenam um conjunto de valores do mesmo tipo e que podem ser acessadas via índice.
