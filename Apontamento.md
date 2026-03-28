@@ -55,3 +55,7 @@
 - A partir desta variável, podemos chamar uma função de enviar mensagem com um prompt.
 - A partir da propriedade `text`, conseguimos imprimir a resposta dada pela Inteligência.
 - Conseguimos também obter o histórico de mensagens chamando a função `get_history()`.
+
+### 2.4. Criando um Chatbot
+- Através de um loop while, podemos fazer a captura de prompts, enviá-los ao chat e obter respostas.
+- Enquanto a condição do loop não for atendida, novas perguntas podem ser feitas e respondidas.
