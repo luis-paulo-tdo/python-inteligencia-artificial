@@ -62,3 +62,9 @@
 
 ### 2.5. Explorando Estrutura de Dados
 - As listas armazenam um conjunto de valores do mesmo tipo e que podem ser acessadas via índice.
+
+### 2.6. Desafio com Loop While
+- Para percorrer uma lista de nome e uma lista de médias correspondentes ao nome, usamos um índice.
+- O índice começa com zero, e enquanto ele for menor que o tamanho da lista, operamos os elementos.
+- Somamos +1 para cada média percorrida na lista, e se o valor for maior que 10, ajustamos para 10.
+- Então, imprimimos o nome do aluno e a sua média correspondente +1 ou 10 após o incremento feito.
