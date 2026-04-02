@@ -68,3 +68,13 @@
 - O índice começa com zero, e enquanto ele for menor que o tamanho da lista, operamos os elementos.
 - Somamos +1 para cada média percorrida na lista, e se o valor for maior que 10, ajustamos para 10.
 - Então, imprimimos o nome do aluno e a sua média correspondente +1 ou 10 após o incremento feito.
+
+### 2.7. Uso da Função Len
+- Através dela, conseguimos obter o tamanho das listas de forma mais dinâmica e elegante.
+- Podemos endereçar um número negativo para a lista e obter seus valores ao contrário.
+- É possível particionar a lista passando dois endereços válidos entre o caractere `:`.
+- Com a função `append(elemento)`, adicionamos um novo elemento dentro da lista.
+- Com a função `extend(lista)` adicionamos os elementos de uma lista em outra lista.
+- É possível também ter acesso a um elemento de uma lista dentro de outra lista.
+- Através da função `remove(elemento)` conseguimos remover um elemento da lista.
+- Através da função `pop()` conseguimos remover o último elemento dentro da lista.
