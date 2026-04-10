@@ -85,3 +85,8 @@
 - Os valores dos dicionários podem ser acessados através de suas chaves entre colchetes.
 - Os métodos `pop(chave)` e `get(chave)` também retornam os valores relacionados às chaves.
 - Nos métodos `items()`, `keys()` e `values()`, recuperamos as chaves, valores ou ambos.
+
+### 2.9. União de Dicionários
+- Para termos uma estrutura com as chaves `nome` e `media`, podemos unir lista e dicionário.
+- A lista, no caso, receberá dicionários cujas chaves são o `nome` e a `media` dos alunos.
+- Cada dicionário, então, representará um aluno junto com a sua média correspondente.
