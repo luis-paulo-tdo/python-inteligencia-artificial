@@ -78,3 +78,10 @@
 - É possível também ter acesso a um elemento de uma lista dentro de outra lista.
 - Através da função `remove(elemento)` conseguimos remover um elemento da lista.
 - Através da função `pop()` conseguimos remover o último elemento dentro da lista.
+
+### 2.8. Dicionários
+- Em algumas situações, fica difícil trabalhar apenas com listas, aumentando o risco de erros.
+- Na estrutura de Dicionário, temos a definição de chaves que são associadas a algum valor.
+- Os valores dos dicionários podem ser acessados através de suas chaves entre colchetes.
+- Os métodos `pop(chave)` e `get(chave)` também retornam os valores relacionados às chaves.
+- Nos métodos `items()`, `keys()` e `values()`, recuperamos as chaves, valores ou ambos.
