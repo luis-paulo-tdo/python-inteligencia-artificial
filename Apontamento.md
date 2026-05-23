@@ -90,3 +90,22 @@
 - Para termos uma estrutura com as chaves `nome` e `media`, podemos unir lista e dicionário.
 - A lista, no caso, receberá dicionários cujas chaves são o `nome` e a `media` dos alunos.
 - Cada dicionário, então, representará um aluno junto com a sua média correspondente.
+
+## 3. Entrada e Conversão de Dados
+
+### 3.1. Explorando o Loop For
+- No For, sempre definimos quantas vezes as iterações ocorrerão dentro do laço.
+- Podemos também definir uma lista que será iterada por meio de uma variável.
+- A função `range(5)` retorna um array de números até o número cinco incluído.
+- Podemos usar o `range(2, 7)` para definir o início e fim da lista numérica.
+- Podemos usar `range(1, 10, 2)` para pular a lista de número em número.
+- Ao passar um objeto no for, conseguimos iterar os dados dentro do objeto.
+- Podemos iterar o `dicionario.items()` para obter chave e valor do objeto.
+- Através do operador `%` (mod), conseguimos obter o resto de uma divisão.
+
+### 3.2. Funções
+- É uma forma de encapsular um bloco de código para que seja reutilizado mais de uma vez.
+- As funçoes englobam ações para que possamos trabalhar com elas para diferentes valores.
+- Utilizamos a palavra-chave `def` para declarar a função e definir os parâmetros dela.
+- Através da função `split()`, conseguimos converter um texto em uma lista de palavras.
+- Através da função `join()`, unimos os itens de uma lista definindo um separador.
