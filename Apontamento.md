@@ -109,3 +109,9 @@
 - Utilizamos a palavra-chave `def` para declarar a função e definir os parâmetros dela.
 - Através da função `split()`, conseguimos converter um texto em uma lista de palavras.
 - Através da função `join()`, unimos os itens de uma lista definindo um separador.
+
+### 3.3. Simplificação de Funções
+- Conseguimos chamar uma cadeia inteira de funções para tratar um determinado valor.
+- A exemplo, podemos corrigir uma string usando `" ".join(texto.upper().split())`.
+- Para que seja possível usar funções em cadeia, elas precisam ter algum retorno.
+- A função `random.choice(lista)` escolhe e retorna um elemento aleatório da lista.
