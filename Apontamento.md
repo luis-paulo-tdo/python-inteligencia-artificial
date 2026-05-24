@@ -115,3 +115,9 @@
 - A exemplo, podemos corrigir uma string usando `" ".join(texto.upper().split())`.
 - Para que seja possível usar funções em cadeia, elas precisam ter algum retorno.
 - A função `random.choice(lista)` escolhe e retorna um elemento aleatório da lista.
+
+### 3.4. Resumidor de E-mails
+- Ao delimitar uma string com aspas triplas `"""` podemos adicionar quebras e identações nela.
+- É possível combinar uma string contendo as aspas triplas com o `f` para interpolar valores.
+- Se multiplicarmos uma string por um número N, iremos repetir esta string por N vezes.
+- Através do método `enumerate(lista)`, conseguimos enumerar uma lista dentro do loop `for`.
