@@ -121,3 +121,25 @@
 - É possível combinar uma string contendo as aspas triplas com o `f` para interpolar valores.
 - Se multiplicarmos uma string por um número N, iremos repetir esta string por N vezes.
 - Através do método `enumerate(lista)`, conseguimos enumerar uma lista dentro do loop `for`.
+
+### 3.5. LLMs Open Source
+- O modelo do Gemini é privado, e por isso não conseguimos ver o que tem nele e baixá-lo.
+- Existem modelos Open Source que permitem o download, o retreinamento e a privacidade.
+- Dentre estes modelos, o Groq oferece um serviço de inferência para criadores de IA.
+- Por meio do website do Groq, podemos realizar um cadastro e então gerar uma API Key.
+- Com a API Key em mãos, conseguimos importá-la no Colab da mesma forma que o Gemini.
+- Podemos escolher modelos diferentes, com maior ou menos raciocínio lógico, etc.
+- Podemos definir por meio da `temperatura` o nível de criatividade da Inteligência.
+- Quanto menor a temperatura, mais palavras prováveis ele utilizará nas inferências.
+- Quanto maior a temperatura, mais palavras específicas serão escolhidas nas inferências.
+
+## 4. Manipulação de Arquivos e Dados
+
+### 4.1. Leitura e Escrita de Arquivos
+- Com a palavra-chave `with` e a função `open(arquivo, modo)` conseguimos criar um arquivo.
+- Caso o modo inserido seja `w`, o arquivo é sempre sobrescrito pelo programa ao rodar.
+- Se queremos adicionar novo conteúdo em vez de sobrescrever, usamos o modo `"w" x "a"`.
+- Além disso, é importante que seja definido o encoding para o arquivo a ser escrito.
+- Através da expressão `with as`, aplicamos o arquivo aberto a uma instância temporária.
+- Através da instância, chamamos a função `write(conteudo)` para escrever uma linha.
+- Com a função `writelines(lista)`, escrevemos uma lista inteira sem precisar iterar.
