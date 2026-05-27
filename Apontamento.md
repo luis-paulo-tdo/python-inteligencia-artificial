@@ -135,7 +135,7 @@
 
 ## 4. Manipulação de Arquivos e Dados
 
-### 4.1. Leitura e Escrita de Arquivos
+### 4.1. Escrita de Arquivos
 - Com a palavra-chave `with` e a função `open(arquivo, modo)` conseguimos criar um arquivo.
 - Caso o modo inserido seja `w`, o arquivo é sempre sobrescrito pelo programa ao rodar.
 - Se queremos adicionar novo conteúdo em vez de sobrescrever, usamos o modo `"w" x "a"`.
@@ -143,3 +143,17 @@
 - Através da expressão `with as`, aplicamos o arquivo aberto a uma instância temporária.
 - Através da instância, chamamos a função `write(conteudo)` para escrever uma linha.
 - Com a função `writelines(lista)`, escrevemos uma lista inteira sem precisar iterar.
+
+### 4.2. Leitura de Arquivos
+- Na função `open(arquivo, modo)` passamos agora o modo `r` em vez do modo `w`.
+- Com isso, iteramos a instância declarada para o arquivo para obter as linhas.
+- Através da função `strip()` conseguimos tirar caracteres de quebra da linha.
+- A função `readlines()` da instância do arquivo nos permite ler linha a linha.
+
+### 4.3. O Framework Pandas
+- Este framework é muito utilizado pela comunidade Python para ciência de dados.
+- Este framework utiliza diferentes tipos de arquivos para manipulação de dados.
+- A função `read_csv(caminho)` permite a leitura de um CSV no caminho passado.
+- Ao ler o arquivo, seus dados são geralmente gravados em um `Data Frame`.
+- A função `head(quantidade)` permite exibir os primeiros itens do frame.
+- A função `tail(quantidade)` permite exibir os últimos itens do data frame.
