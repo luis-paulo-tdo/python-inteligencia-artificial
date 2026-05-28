@@ -170,3 +170,9 @@
 - Podemos imprimir apenas uma coluna do DataFrame referenciando `dataframe[nome_coluna]`.
 - Conseguimos obter um array de valores únicos de uma coluna com a função `unique()`.
 - A função `set(lista_colunas)` também nos permite pegar apenas os valores únicos.
+
+### 5.2. Filtragem de Elementos
+- Conseguimos fazer uma filtragem referenciando `dataframe[dataframe[coluna] == valor]`.
+- Da mesma forma que aplicamos o `==`, podemos utilizar outros operadores de comparação.
+- A propriedade `shape` de um Data Frame mostra os números de linhas e de colunas.
+- Podemos combinar filtros com esta referência `dataframe[(filtro1) & (filtro2)]`.
