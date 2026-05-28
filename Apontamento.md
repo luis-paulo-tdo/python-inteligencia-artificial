@@ -162,3 +162,11 @@
 - A biblioteca `csv` nos permite escrever um CSV de forma segura a partir de uma lista objetos.
 - Com o Data Frame do Pandas, conseguimos carregar um CSV a função `pd.DataFrame(arquivo)`.
 - Podemos também transformar uma lista de objetos num arquivo CSV com a função `to_csv(lista)`.
+
+## 5. Manipulação e Filtragem de Dados com Pandas
+
+### 5.1. Manipulação de Dados
+- A biblioteca `numpy` nos permite definir diferentes números aleatórios para dados mockados.
+- Podemos imprimir apenas uma coluna do DataFrame referenciando `dataframe[nome_coluna]`.
+- Conseguimos obter um array de valores únicos de uma coluna com a função `unique()`.
+- A função `set(lista_colunas)` também nos permite pegar apenas os valores únicos.
