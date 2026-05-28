@@ -157,3 +157,8 @@
 - Ao ler o arquivo, seus dados são geralmente gravados em um `Data Frame`.
 - A função `head(quantidade)` permite exibir os primeiros itens do frame.
 - A função `tail(quantidade)` permite exibir os últimos itens do data frame.
+
+### 4.4. Aplicando o Pandas
+- A biblioteca `csv` nos permite escrever um CSV de forma segura a partir de uma lista objetos.
+- Com o Data Frame do Pandas, conseguimos carregar um CSV a função `pd.DataFrame(arquivo)`.
+- Podemos também transformar uma lista de objetos num arquivo CSV com a função `to_csv(lista)`.
