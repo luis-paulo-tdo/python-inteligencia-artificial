@@ -176,3 +176,13 @@
 - Da mesma forma que aplicamos o `==`, podemos utilizar outros operadores de comparação.
 - A propriedade `shape` de um Data Frame mostra os números de linhas e de colunas.
 - Podemos combinar filtros com esta referência `dataframe[(filtro1) & (filtro2)]`.
+
+### 5.3. Funções LOC e ILOC
+- A propriedade `iloc[id]` nos permite trazer os detalhes de um item no Data Frame.
+- Podemos exibir em intervalos finitos e infinitos com `iloc[id_inicio:id_fim]`.
+- A propriedade `loc[índice]` obtém detalhes de um Data Frame indexado.
+- Conseguimos retornar propriedades específicas com o `loc[índice, coluna]`.
+- Múltiplos índices e colunas: `loc[[índice1, índice2], [coluna1, coluna2]]`.
+- A propriedade `index` de uma filtragem traz a lista de índices do resultado.
+- A lista de índices pode ser combinada: `df.loc[filtragem.index, colunas]`.
+- Podemos alterar valores de uma coluna com `df.loc[índices, coluna] = valor`.
