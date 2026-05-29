@@ -213,3 +213,7 @@
 ### 6.2. Categorização de Dados
 - Através da função `string.join(lista)` unimos diversas strings com um separador.
 - Na função `string.split(separador)`, criamos uma lista de strings via separador.
+
+### 6.3. Carregando Objetos JSON
+- Através da biblioteca `json`, conseguimos trabalhar com serialização e desserialização.
+- A função `json.loads(string)` nos permite converter uma string em um objeto JSON.
