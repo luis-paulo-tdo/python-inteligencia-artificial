@@ -217,3 +217,15 @@
 ### 6.3. Carregando Objetos JSON
 - Através da biblioteca `json`, conseguimos trabalhar com serialização e desserialização.
 - A função `json.loads(string)` nos permite converter uma string em um objeto JSON.
+
+### 6.4. Execução Local
+- Por razões de segurança ou privacidade, pode-se optar por rodar os LLMs localmente.
+- Modelos próprios ou baixados também podem ser usados juntamente com fine-tuning.
+- Fine-tuning o treinamento de um LLM para que ele se especialize em algo.
+- Através do `LM Studio`, carregamos modelos disponibilizados pela comunidade.
+- Um modelo nada mais é do que uma rede neural que trabalha com parâmetros.
+- A quantidade de parâmetros indica o tamanho do modelo, sendo medido em Bilhões.
+- Quanto maior a quantidade de parâmetros, maior o consumo de processamento.
+- A quantização do modelo influencia na complexidade dos cálculos que são feitos.
+- Os modelos mais abertos oferecem uma quantização maior para torná-los mais enxutos.
+- Porém, um modelo com uma quantização muito grande pode gerar perdas na qualidade.
