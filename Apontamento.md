@@ -209,3 +209,7 @@
 - O tipo `Exception` é uma exceção genérica que pega qualquer erro gerado.
 - O bloco `finally` serve para concluir o processamento da aplicação.
 - Conclusões envolvem fechamento de arquivos, desalocações, etc.
+
+### 6.2. Categorização de Dados
+- Através da função `string.join(lista)` unimos diversas strings com um separador.
+- Na função `string.split(separador)`, criamos uma lista de strings via separador.
