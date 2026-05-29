@@ -191,3 +191,21 @@
 - Para criar uma nova coluna, basta atribuir uma lista a uma propriedade do Data Frame.
 - A referência é `df["propriedade"] = lista`, onde propriedade não pode existir ainda.
 - Para apagar uma coluna, fazemos o uso de uma palavra-chave `del df["propriedade"]`.
+
+# 6. Processamento com Inteligência Artificial
+
+### 6.1. Tratamento de Erros
+- Existem determinados blocos de códigos que sabemos que podem gerar algum erro.
+- Para estes, não queremos a aplicação quebre e desejamos dar algum tratamento.
+- Através do `try-except-finally`, podemos estruturar tratamentos de erro.
+- Através do bloco `try`, realizamos a execução do bloco sujeito a erros.
+- Através do `except`, especificamos um tipo de exceção e dar um tratamento.
+- É uma boa prática criarmos nossas próprias exceptions para tratar os casos.
+- Também existem exceções específicas já prontas para uso em erros esperados.
+- Um `ValueError`, por exemplo, trata-se de problemas de conversão de dados.
+- O `TypeError` geralmente se refere operações feitas com tipos diferentes.
+- Com estas instâncias de exception, conseguimos obter mensagens específicas.
+- Estas mensagens retornadas geralmente são próprias para os desenvolvedores.
+- O tipo `Exception` é uma exceção genérica que pega qualquer erro gerado.
+- O bloco `finally` serve para concluir o processamento da aplicação.
+- Conclusões envolvem fechamento de arquivos, desalocações, etc.
