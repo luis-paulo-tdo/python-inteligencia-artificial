@@ -186,3 +186,8 @@
 - A propriedade `index` de uma filtragem traz a lista de índices do resultado.
 - A lista de índices pode ser combinada: `df.loc[filtragem.index, colunas]`.
 - Podemos alterar valores de uma coluna com `df.loc[índices, coluna] = valor`.
+
+### 5.4. Criando Novas Colunas
+- Para criar uma nova coluna, basta atribuir uma lista a uma propriedade do Data Frame.
+- A referência é `df["propriedade"] = lista`, onde propriedade não pode existir ainda.
+- Para apagar uma coluna, fazemos o uso de uma palavra-chave `del df["propriedade"]`.
