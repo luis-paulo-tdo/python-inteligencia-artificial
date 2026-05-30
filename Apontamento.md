@@ -229,3 +229,7 @@
 - A quantização do modelo influencia na complexidade dos cálculos que são feitos.
 - Os modelos mais abertos oferecem uma quantização maior para torná-los mais enxutos.
 - Porém, um modelo com uma quantização muito grande pode gerar perdas na qualidade.
+
+### 6.5. Modularização de Funções
+- A palavra-chave `from` referencia um arquivo python e `import` importa uma função.
+- Em uma função Python, conseguimos retornar mais de um valor através do `return`.
